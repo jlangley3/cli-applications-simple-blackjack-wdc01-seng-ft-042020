@@ -15,7 +15,7 @@ def display_card_total
   it "prints the value of the cards to the screen" do
     expect($stdout).to receive(:puts).with("Your cards add up to 8")
     display_card_total(8)
-  end# code #display_card_total here
+  # code #display_card_total here
 end
 
 def prompt_user
